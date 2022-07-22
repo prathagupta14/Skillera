@@ -1,0 +1,27 @@
+body{
+    background-image: url(bg.png);
+    background-position: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.user-icon {
+    float: right;
+    margin: 2%;
+}
+
+.course {
+    opacity: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    margin: 5%;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}

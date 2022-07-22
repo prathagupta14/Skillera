@@ -1,0 +1,75 @@
+body{
+    background-image: url(bg.png);
+    background-position: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.input-boxes {
+    margin: 5% 45% 0 37%;
+}
+
+.input {
+    display: flex;
+    justify-self: center;
+    margin: 20% 0;
+    padding: 5% 2%;
+    width: 100%;
+    border-radius: 10px;;
+    border: 2px white solid;
+    background-color: rgba(183, 180, 180, 0.500);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.go {
+    padding: 5% 10%;
+    margin: 0 45% 0 37%;
+    background-color: white;
+    color: black;
+    font-family: 'Happy Monkey', sans-serif;
+    border-radius: 10px;
+}
+
+.go:hover {
+    background-color: rgb(214, 210, 210);
+}
+
+.go:active {
+    background-color: rgb(181, 178, 178);
+  }
+  
+
+.mascot {
+    margin: -13% 0 0 0;
+    float: right;
+}
+
+.bubble {
+    margin: -20% 0 0 0;
+    float: right;
+}
+
+p {
+    color: white;
+    font-family: 'Happy Monkey', sans-serif;
+}
+
+.slider {
+    margin: -18% 0 0 60%;
+    width: 200px;
+    height: 110px;
+    overflow: hidden;
+}
+
+@keyframes slider {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-110px);}
+    100% {transform: translateY(0);}
+}
+
+.content {
+    animation: slider 7s infinite;
+}
